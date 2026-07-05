@@ -2,7 +2,7 @@
 
 A 14-scene animated short (~2 min, 1080x1920) about hyphal interference — the mechanism by which the biocontrol fungus *Phlebiopsis gigantea* outcompetes and kills the tree pathogen *Heterobasidion annosum* on freshly cut conifer stumps.
 
-Built as a React/Vite app (Replit "video" artifact) where each scene is a timed component; `output/hyphal_interference.mp4` is the final rendered export (captured via headless Chromium and muxed with the background track via ffmpeg).
+Built as a React/Vite app where each scene is a timed component; `output/hyphal_interference.mp4` is the final rendered export (captured via headless Chromium and muxed with the background track via ffmpeg).
 
 ## Structure
 
