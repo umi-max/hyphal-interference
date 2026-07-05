@@ -24,3 +24,5 @@ PORT=22872 BASE_PATH=/ pnpm run dev
 ```bash
 PORT=22872 BASE_PATH=/ pnpm run build
 ```
+## Credit
+Animation designed by Hafiz Umair Masood Awan.
