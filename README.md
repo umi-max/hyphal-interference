@@ -25,4 +25,4 @@ PORT=22872 BASE_PATH=/ pnpm run dev
 PORT=22872 BASE_PATH=/ pnpm run build
 ```
 ## Credit
-Animation designed by Hafiz Umair Masood Awan.
+Animation director and designer is Hafiz Umair Masood Awan.
