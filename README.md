@@ -24,5 +24,18 @@ PORT=22872 BASE_PATH=/ pnpm run dev
 ```bash
 PORT=22872 BASE_PATH=/ pnpm run build
 ```
+
+## Rendering the video
+
+The MP4 export is fully reproducible from a fresh clone — no system `ffmpeg` install needed, it's bundled via `ffmpeg-static`. Playwright's Chromium is the one manual, one-time step (browser binaries aren't distributed via npm):
+
+```bash
+pnpm install
+pnpm run render:setup   # one-time: downloads Playwright's Chromium
+pnpm run render         # builds, serves, records a full playthrough, and muxes audio
+```
+
+This produces `output/hyphal_interference.mp4`. The recording is driven by the app's own `window.startRecording`/`window.stopRecording` hooks (`src/lib/video/hooks.ts`), so it automatically captures exactly one full loop regardless of scene-duration changes. See `scripts/render-video.mjs` for details, including override env vars (`RENDER_PORT`, `RENDER_WIDTH`/`RENDER_HEIGHT`, etc).
+
 ## Credit
 Animation director and designer is Hafiz Umair Masood Awan.

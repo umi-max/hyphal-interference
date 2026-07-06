@@ -3,6 +3,7 @@ packages:
 
 allowBuilds:
   esbuild: true
+  ffmpeg-static: true
 
 catalog:
   "@replit/vite-plugin-cartographer": ^0.6.0
