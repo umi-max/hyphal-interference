@@ -1,5 +1,9 @@
 # Hyphal Interference
 
+[![Watch on YouTube](https://img.youtube.com/vi/W5pCtginuv8/maxresdefault.jpg)](https://youtube.com/shorts/W5pCtginuv8)
+
+**[▶ Watch on YouTube](https://youtube.com/shorts/W5pCtginuv8)**
+
 A 14-scene animated short (~2 min, 1080x1920) about hyphal interference — the mechanism by which the biocontrol fungus *Phlebiopsis gigantea* outcompetes and kills the tree pathogen *Heterobasidion annosum* on freshly cut conifer stumps.
 
 Built as a React/Vite app where each scene is a timed component; `output/hyphal_interference.mp4` is the final rendered export (captured via headless Chromium and muxed with the background track via ffmpeg).
